@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5efe0; /* Light coffee color */
+    color: #5c4033; /* Deep brown */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #8b5a2b; /* Coffee brown */
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid #8b5a2b;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    background: #6f4e37;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    width: 250px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background: #fff5e1;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact */
+form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #6f4e37;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #8b5a2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #6f4e37;
+    color: white;
+    padding: 15px;
+}
